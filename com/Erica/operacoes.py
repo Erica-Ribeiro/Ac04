@@ -1,5 +1,10 @@
-class Operacoes():
+class Multiplicacao:
 
-    def multiplicacao(self,v1,v2):
-        return v1*v2
-
+		def mult(self, quantidade):
+			n = 1
+			for i in quantidade:
+				n *= i
+				
+			return n
+			
+		
